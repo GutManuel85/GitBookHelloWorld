@@ -1,5 +1,4 @@
 # Table of contents
 
-* [Cheat Sheet](README.md)
-* [Regular Expression Flags](regular-expression-flags.md)
+* [Regular Expression Flags](README.md)
 * [Metacharacters](metacharacters.md)

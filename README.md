@@ -1,21 +1,25 @@
-# Cheat Sheet
+---
+description: Hier werden die Regular Expression Flags besprochen
+---
 
-{% file src=".gitbook/assets/davechild_regular-expressions.pdf" %}
+# Regular Expression Flags
 
-<pre class="language-java" data-title="Person.java" data-overflow="wrap" data-line-numbers><code class="lang-java"><strong>public class Person{
-</strong><strong>    
-</strong><strong>    private String lastName;
-</strong><strong>    private String firstName;
-</strong><strong>    private int age;
-</strong><strong>    
-</strong><strong>    public Person(String lastName, String firstName, int age){
-</strong><strong>        this.lastName = lastName;
-</strong><strong>        this.firstName = firstName;
-</strong><strong>        this.age = age;
-</strong><strong>    }
-</strong><strong>}
-</strong></code></pre>
+Grundsätzlich gibt es 4 verschiedene Flags:
 
-```
-// Some code
-```
+* **g = global flag**: Sucht alle vorkommenden matches, nicht nur das erste
+* **i = case insensitive flag**: ignoriert Gross- und Kleinschreibung
+* **m = multiline flag**: Sucht auch nach linebreak weiter.
+* **s = dot all flag**:&#x20;
+
+Nachfolgend siehst du das unterschiedliche Verhalten anhand des Tools RegEx Pal
+
+**Ohne global flag:**
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+**Mit global flag:**
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+**Mit global und multiline flag:**
+

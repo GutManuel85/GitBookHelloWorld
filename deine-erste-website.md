@@ -20,6 +20,4 @@ Hinter den Doppelpunkten kannst du nun die entsprechenden Informationen zu deine
 
 So, nun wollen wira aber wissen, wie das ganze "live" dann aussehen wird. Dafür nutzen wir das zuvor installierte Plugin "Live Server"  Dazu unten rechts auf "Go Live" klicken. Dadurch öffnet sich ein neues Browser-Tab, welches deine Website enthält. Das wird dann ungefähr so aussehen:
 
-<figure><img src=".gitbook/assets/MeineErsteWebsite.PNG" alt="" width="563"><figcaption><p>Beispiel "Meine erste Website".</p></figcaption></figure>
-
 In der **URL des Browsers** kannst du sehen, dass wir uns auf einem Server mit der **IP-Adresse 127.0.0.1** befinden. Dies ist der sogenannte "**local host**", also dein eigener Laptop. Klingt etwas verwirrend, doch über das Plugin "Live Server" fungiert dein eigener Laptop nun gleichzeitig als **Server** und als **Client**. So kannst du über deinen **Browser (Client)** den **Live Server (Server)** anfragen. Dazu wird der **Port 5500** verwendet, was du hinter dem **Doppelpunkt** in der URL siehst. Danach folgt ein **Slash** gefolgt von **01\_helloWorld.html**, was der **Bezeichnung deines Files** entspricht und als **Pfad** bezeichnet wird.
